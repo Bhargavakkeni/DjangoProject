@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
 
 # Create your views here.
-arr=['C','Python','Java','Kotlin','C++','Ruby','Javascript','PHP','.net','swift','MySQL']
+arr=['C','Python','Java','Kotlin','C++','Ruby','Javascript','PHP','.net','swift','MySQL','HTML','Odoo']
 globaldictcnt=dict()
 def index(request):
     
